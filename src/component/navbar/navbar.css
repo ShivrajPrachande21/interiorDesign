@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Lobster&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    background: #7a665edd;
+    backdrop-filter: blur(16px);
+    z-index: 10;
+  
+}
+.Links{
+    width: 24%;
+    margin-right: 30px;
+   
+}
+.Links ul {
+text-decoration: none;
+color: black;
+
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+.Links ul li{
+    display: inline;
+    color:#3e2c23;
+    font-size: 1rem;
+
+    text-transform:uppercase;
+    letter-spacing: 1.2px;
+  
+}
+.Links ul li:hover{
+padding-bottom: 4px;
+    font-size: 1rem;
+    border-bottom: 2px solid white;
+    transition: all 0.3s ease-in-out; 
+    cursor: pointer;
+}
+.logo{
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.2rem;
+    margin-left: 18px;}
